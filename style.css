@@ -59,10 +59,29 @@ body{
     border-radius: 20px;
     margin: 0px 0px;
 }
-
-.three-dot{
+::placeholder {
     color: #fff;
+    opacity: 1; /* Firefox */
+    text-align: right;
+  }
+  
+
+.input input {
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #0adab9;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: -11px;
 }
+
+/* textarea{
+    width: 100%;
+    
+    background: transparent;
+    border: none;
+    outline: none;
+    } */
 
 #banner{
     display: flex;
