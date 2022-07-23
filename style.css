@@ -1,0 +1,119 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Main Css part start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/banner.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.first-line{
+    font-size:40px;
+    margin-top: 20px;
+    border-bottom: 2px solid rebeccapurple;
+    display: inline-block;
+    margin-left: 400px;
+}
+
+/* Nav bar part css start */
+.landing{
+    display: flex;
+    margin-top: 50px;
+}
+.logo img{
+    width: 40%;
+}
+
+.menu nav{
+    list-style-type: none;
+    display: flex;
+    margin-left: 200px;
+}
+.menu nav li{
+    color: #fff;
+    padding: 34px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.menu nav li:last-child{
+    margin-right: 40px;
+
+}
+
+.nav-button{
+    border: 1px solid #0adab9;
+    padding-top: 32px;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin: 0px 0px;
+}
+
+.three-dot{
+    color: #fff;
+}
+
+#banner{
+    display: flex;
+    color: #fff;
+    background-image: url(images/design2.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+
+}
+
+.banner-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 80px;
+    padding-right: 240px;
+    margin-bottom: 50px;
+
+}
+
+.banner-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-right: 240px;
+    margin-bottom: 50px;
+}
+.banner-text button{
+    background-color: #0adab9;
+    color: #000;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.banner-text button:hover{
+    background-color:#db137d ;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+
+
+
+.banner-img img{
+    width: 80%;
+}
